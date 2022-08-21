@@ -1671,6 +1671,13 @@ textarea.input {
             align-items: center;
   }
 
+  .menu-header__list:not(:last-child) {
+    margin-bottom: 1.25rem;
+    -webkit-column-gap: 1.25rem;
+       -moz-column-gap: 1.25rem;
+            column-gap: 1.25rem;
+  }
+
   .actions-header {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -1824,6 +1831,10 @@ textarea.input {
 
   .footer__container {
     gap: 0;
+  }
+
+  .explore {
+    min-height: 100vh;
   }
 
   .image-card img {
